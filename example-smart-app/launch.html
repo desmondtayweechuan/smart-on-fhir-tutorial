@@ -12,8 +12,10 @@
     <script src='./lib/js/fhir-client-v0.1.12.js'></script>
     <script>
       FHIR.oauth2.authorize({
-        'client_id': 'fc25e91e-bb29-4e82-b88f-ffb44cb312ff', //Your app client ID
-        'scope':  'launch user/*.* openid profile' //'patient/*.read launch'
+        // 'client_id': 'fc25e91e-bb29-4e82-b88f-ffb44cb312ff', //Your app client ID
+        // 'scope':  'launch user/*.* openid profile' //'patient/*.read launch'
+        'client_id': '68b07709-9b97-432b-8a1b-0ee36d35b30a',
+        'scope':  'launch/patient online_access openid patient/*.read profile'
       });
     </script>
     <div class="spinner">
